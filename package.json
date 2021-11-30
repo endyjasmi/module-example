@@ -1,0 +1,32 @@
+{
+  "name": "@endyjasmi/module-example",
+  "description": "Module example to test npm package publish.",
+  "version": "0.0.0",
+  "license": "",
+  "keywords": [
+    "example"
+  ],
+  "type": "module",
+  "main": "./source/index.cjs",
+  "module": "./source/index.js",
+  "exports": {
+    "import": "./source/index.js",
+    "require": "./source/index.cjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "maintainers": [
+    {
+      "name": "Endy Jasmi",
+      "email": "endyjasmi@gmail.com",
+      "url": "https://github.com/endyjasmi"
+    }
+  ],
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.0"
+  }
+}
